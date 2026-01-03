@@ -22,3 +22,8 @@ It includes **WAF protection**, **private networking**, and **centralized monito
 - `evidence-screenshots/` : proof (portal + CLI outputs)
 - `monitoring/` : KQL queries + log validation
 
+##Governance & Compliance
+
+Azure Policy was used to enforce cloud security and governance standards across the subscription. 
+The CIS Microsoft Azure Foundations Benchmark (built-in initiative) was assigned at subscription scope 
+to ensure alignment with industry best practices for identity, networking, logging, and resource security.
